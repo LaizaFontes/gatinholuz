@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 100%;
+}
+html,
+body {
+  width: 70%;
+  height: 70%;
+  background-color: #1a1818;
+}
+
+img {
+  max-width: 50%;
+  left: 50px;
+}
+
+/*============== lampadas==============*/
+.gato {
+  padding-top: 100rem;
+}
+.gato,
+.btn button {
+  display: flex;
+  margin: auto;
+  width: 100rem;
+  justify-content: center;
+}
+
+/*============= botoes ==============*/
+.btn button {
+  margin-top: 2rem;
+  width: 5rem;
+  height: 10rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 1rem;
+  font-size: 4rem;
+  background: grey;
+  color: white;
+  box-shadow: 0.2rem 0.2rem 0.8rem #606060;
+}
+
+.muda-tema button {
+  align-items: flex-end;
+}
